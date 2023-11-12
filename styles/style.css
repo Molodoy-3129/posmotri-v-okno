@@ -314,8 +314,7 @@ input[type="checkbox"]:focus-visible + span {
     text-decoration: none;
 }
 
-.error {
-    
+.error { 
     color: #fff;
     z-index: 1;
     text-align: center;
