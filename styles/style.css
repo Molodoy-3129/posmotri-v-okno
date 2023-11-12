@@ -248,7 +248,7 @@ input[type="checkbox"]:focus-visible + span {
     text-transform: uppercase;
 }
 .content__video-card-description:focus {
-    position: absolute;
+    /*position: absolute; убрал для проверки*/
     inline-size: 1px;
     block-size: 1px;
     overflow: hidden;
@@ -258,7 +258,7 @@ input[type="checkbox"]:focus-visible + span {
 }
 
 .content__video-card-title:focus {
-    position: absolute;
+   /*position: absolute; убрал для проверки*/
     inline-size: 1px;
     block-size: 1px;
     overflow: hidden;
