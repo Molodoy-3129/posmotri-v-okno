@@ -38,13 +38,14 @@ ol {
 }
 
 .page {
-    padding: 133px 30px;
+    padding: 133px 30px 133px 30px;
 }
 .content {
     display: flex;
     margin: 0 auto;
     gap: 30px;
     width: 1140px;
+    
 }
 
 .result {
@@ -53,6 +54,8 @@ ol {
 
 .result__video-container {
     margin-bottom: 16px;
+   
+  
 }
 
 .result__video {
@@ -62,6 +65,7 @@ ol {
 .search-form {
     display: flex;
     justify-content: space-between;
+   
 }
 
 .content__details {
@@ -69,11 +73,14 @@ ol {
     align-items: flex-start;
     gap: 30px;
     overflow-x: auto;
+    position: relative;
+    
 }
 
 .content__video-card {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .content__list-item {
@@ -103,15 +110,14 @@ ol {
     margin-bottom: 5px;
 }
 
-
 .visually-hidden {
-    /*position: absolute; убрал для проверки*/
-  inline-size: 1px;
-  block-size: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
 }
 
 .search-form__submit-button,
