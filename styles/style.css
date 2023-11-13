@@ -48,16 +48,20 @@ ol {
     width: 1140px;
     margin: 0 auto;
     align-self: center;
+    
    
     
 }
 
 .result {
     margin-top: 69px;
+    
 }
 
 .result__video-container {
     margin-bottom: 26px;
+    
+    
     
    
   
@@ -65,27 +69,35 @@ ol {
 
 .result__video {
     width: 711px;
-    height: 386px
+    height: 386px;
+   
 }
 
 .search-form {
     display: flex;
     justify-content: space-between;
+    
    
 }
 
+
 .content__details {
-    height: 527px;
+    width: auto;
+    height: 540px;
     align-items: flex-start;
     gap: 30px;
-    overflow-x: auto;
+    overflow-y: auto;
+    overflow-x:hidden;
     position: relative;
+   
     
 }
+
 
 .content__video-card {
     display: flex;
     justify-content: space-between;
+    
     
 }
 
