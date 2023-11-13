@@ -263,25 +263,7 @@ input[type="checkbox"]:focus-visible + span {
     line-height: 94%;
     text-transform: uppercase;
 }
-.content__video-card-description:focus {
-    /*position: absolute; убрал для проверки*/
-    inline-size: 1px;
-    block-size: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    white-space: nowrap;
-}
 
-.content__video-card-title:focus {
-   /*position: absolute; убрал для проверки*/
-    inline-size: 1px;
-    block-size: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    white-space: nowrap;
-}
 
 .content__video-card-title {
     color: #fff;
