@@ -38,28 +38,34 @@ ol {
 }
 
 .page {
-    padding: 133px 30px 133px 30px;
+    padding: 266px 30px ;
+    
+    
 }
 .content {
     display: flex;
-    margin: 0 auto;
     gap: 30px;
     width: 1140px;
+    margin: 0 auto;
+    align-self: center;
+   
     
 }
 
 .result {
-    padding-top: 69px;
+    margin-top: 69px;
 }
 
 .result__video-container {
     margin-bottom: 16px;
+    
    
   
 }
 
 .result__video {
-    height: 386px;
+    width: 711px;
+    height: 386px
 }
 
 .search-form {
